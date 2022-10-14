@@ -42,3 +42,7 @@ body {
 a {
     color: black;
 }
+
+#my_img {
+    border-radius: 300px;
+}
