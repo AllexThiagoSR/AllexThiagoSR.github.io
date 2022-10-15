@@ -9,12 +9,7 @@
     text-align: center;
 }
 
-#sec_2 {
-    margin-left: 50px;
-    font-size: 1.4em;
-}
-
-#sec_3 {
+#sec_2, #sec_3 {
     margin-left: 50px;
     font-size: 1.4em;
 }
@@ -28,7 +23,17 @@
 }
 
 #indie-list {
+    padding: 10px;
+    column-gap: 75px;
     column-count: 4;
+}
+
+#indie-list a {
+    display: flex;
+    width: max-content;
+    padding: 15px 30px;
+    background-color: #0a7e51;
+    border-radius: 8px;
 }
 
 #indie {
@@ -37,9 +42,10 @@
     margin-top: 0px;
 }
 
-.indie-cont {
-    margin: 10px;
-    margin-top: 0px;
+.indie-cont{
+    background-color: #0a7e51;
+    text-align: center;
+    width: 200px;
 }
 
 h1 {
@@ -54,6 +60,7 @@ body {
 a {
     color: black;
     text-decoration: none;
+    margin: 0px;
 }
 
 #my_img {
