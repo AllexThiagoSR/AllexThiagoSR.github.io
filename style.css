@@ -1,8 +1,20 @@
 #about {
     text-align: justify;
-    margin-left: 400px;
-    margin-right: 400px;
     font-size: 20px;
+    font-weight: 550;
+}
+
+#about-div {
+    background-color:  #Cd00f3;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+#about-div h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #sec_1 {
