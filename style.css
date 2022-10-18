@@ -73,6 +73,10 @@
     text-align: center;
 }
 
+#my_img {
+    border-radius: 300px;
+}
+
 .indie-cont{
     background-color: #0a7e51;
     text-align: center;
@@ -94,6 +98,6 @@ a {
     margin: 0px;
 }
 
-#my_img {
-    border-radius: 300px;
+#hab-list li:nth-of-type(odd) {
+    color: red;
 }
