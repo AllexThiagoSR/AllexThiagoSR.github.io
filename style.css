@@ -8,8 +8,10 @@
     background-color:  #Cd00f3;
     padding: 15px 30px;
     border-radius: 15px;
-    margin-left: 350px;
-    margin-right: 350px;
+    position: absolute;
+    left: 650px;
+    top: 390px;
+    margin-right: 70px;
 }
 
 #about-div h2{
@@ -17,13 +19,19 @@
     margin-top: 20px;
 }
 
-#sec_1 {
-    text-align: center;
+#image {
+    position: absolute;
+    left: 70px;
 }
 
 #sec_2, #sec_3 {
     margin-left: 50px;
     font-size: 1.4em;
+}
+
+#sec_1 {
+    height: 500px;
+    margin-bottom: 90px;
 }
 
 #header {
