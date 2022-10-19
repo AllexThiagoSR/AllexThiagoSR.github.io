@@ -1,43 +1,16 @@
-#about {
-    text-align: justify;
-    font-size: 20px;
-    font-weight: 550;
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(221, 185, 250);
 }
 
-#about-div {
-    background-color:  #Cd00f3;
-    padding: 15px 30px;
-    border-radius: 15px;
-    position: absolute;
-    left: 650px;
-    top: 480px;
-    margin-right: 70px;
+h1 {
+    font-size: 40px;
 }
 
-#about-div h2{
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-#image {
-    position: absolute;
-    left: 70px;
-    top: 370px;
-    padding: 50px;
-    background-color: #Cd00f3;
-    border-radius: 250px;
-
-}
-
-#sec_2, #sec_3 {
-    margin-left: 50px;
-    font-size: 1.4em;
-}
-
-#sec_1 {
-    height: 600px;
-    margin-bottom: 90px;
-    margin-top: 100px;
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0px;
 }
 
 #header {
@@ -69,33 +42,60 @@
     margin-top: 0px;
 }
 
+.indie-cont{
+    background-color: #0a7e51;
+    text-align: center;
+    width: 200px;
+    list-style: none;
+}
+
+#sec_1 {
+    height: 600px;
+    margin-bottom: 90px;
+    margin-top: 100px;
+}
+
 #name {
     text-align: center;
+}
+
+#image {
+    position: absolute;
+    left: 70px;
+    top: 370px;
+    padding: 50px;
+    background-color: #Cd00f3;
+    border-radius: 250px;
 }
 
 #my_img {
     border-radius: 300px;
 }
 
-.indie-cont{
-    background-color: #0a7e51;
-    text-align: center;
-    width: 200px;
+#about-div {
+    background-color:  #Cd00f3;
+    padding: 15px 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 650px;
+    top: 480px;
+    margin-right: 70px;
 }
 
-h1 {
-    font-size: 40px;
+#about-div h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(221, 185, 250);
+#about {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 550;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-    margin: 0px;
+#sec_2, #sec_3 {
+    margin-left: 50px;
+    font-size: 1.4em;
 }
 
 #hab-list li:nth-of-type(odd) {
