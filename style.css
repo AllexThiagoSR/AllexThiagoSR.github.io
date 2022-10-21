@@ -72,7 +72,7 @@ a {
     border-radius: 300px;
 }
 
-#about-div {
+#about-sec {
     background-color:  #Cd00f3;
     padding: 15px 30px;
     border-radius: 15px;
@@ -82,7 +82,7 @@ a {
     margin-right: 70px;
 }
 
-#about-div h2{
+#about-sec h2{
     margin-bottom: 20px;
     margin-top: 20px;
 }
